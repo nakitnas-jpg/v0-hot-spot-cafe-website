@@ -5,6 +5,7 @@ const items = [
   "Crispy Broast",
   "Juicy Burgers",
   "Fresh Juices",
+  "Creamy Pasta",
   "Combo Deals",
   "Family Saver",
   "Mega Feast",
@@ -13,15 +14,15 @@ const items = [
 
 export function MarqueeBanner() {
   return (
-    <div className="overflow-hidden border-y border-border bg-primary py-4">
+    <div className="overflow-hidden border-y border-secondary/20 bg-secondary py-4">
       <div className="flex animate-marquee whitespace-nowrap">
         {[...items, ...items, ...items].map((item, index) => (
           <span
             key={`${item}-${index}`}
-            className="mx-8 text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground"
+            className="mx-8 font-serif text-base uppercase tracking-[0.3em] text-secondary-foreground"
           >
             {item}
-            <span className="ml-8 text-primary-foreground/40">/</span>
+            <span className="ml-8 text-secondary-foreground/30">/</span>
           </span>
         ))}
       </div>
@@ -36,7 +37,7 @@ export function MarqueeBanner() {
           }
         }
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 35s linear infinite;
         }
       `}</style>
     </div>

@@ -16,25 +16,25 @@ export function Footer() {
                 height={48}
                 className="rounded-full"
               />
-              <span className="font-serif text-xl font-bold text-foreground">
-                Hot Spot Cafe
+              <span className="font-serif text-2xl tracking-widest text-foreground">
+                HOT SPOT <span className="text-secondary">CAFE</span>
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Your go-to destination for Pizza, Burgers, Broast, and fresh
-              Juices. Bold flavors in every bite.
+              Your go-to destination for Pizza, Burgers, Broast, Pasta, and fresh
+              Juices. Neon vibes, bold flavors in every bite.
             </p>
             <div className="mt-6 flex gap-4">
               <a
                 href="#"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-secondary hover:text-secondary"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
               </a>
               <a
                 href="#"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-secondary hover:text-secondary"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
@@ -57,7 +57,7 @@ export function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                    className="text-sm text-muted-foreground transition-colors hover:text-secondary"
                   >
                     {link.label}
                   </a>
@@ -73,20 +73,20 @@ export function Footer() {
             </h3>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                <MapPin size={18} className="mt-0.5 flex-shrink-0 text-primary" />
+                <MapPin size={18} className="mt-0.5 flex-shrink-0 text-secondary" />
                 <span className="text-sm text-muted-foreground">
                   Dubai, United Arab Emirates
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={18} className="flex-shrink-0 text-primary" />
-                <a href="tel:+971000000000" className="text-sm text-muted-foreground hover:text-primary">
-                  +971 00 000 0000
+                <Phone size={18} className="flex-shrink-0 text-secondary" />
+                <a href="tel:+971545036410" className="text-sm text-muted-foreground hover:text-secondary">
+                  054 503 6410
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={18} className="flex-shrink-0 text-primary" />
-                <a href="mailto:info@hotspotcafe.ae" className="text-sm text-muted-foreground hover:text-primary">
+                <Mail size={18} className="flex-shrink-0 text-secondary" />
+                <a href="mailto:info@hotspotcafe.ae" className="text-sm text-muted-foreground hover:text-secondary">
                   info@hotspotcafe.ae
                 </a>
               </li>
@@ -100,14 +100,14 @@ export function Footer() {
             </h3>
             <ul className="flex flex-col gap-3">
               <li className="flex items-center gap-3">
-                <Clock size={18} className="flex-shrink-0 text-primary" />
+                <Clock size={18} className="flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium text-foreground">Mon - Thu</p>
                   <p className="text-sm text-muted-foreground">10:00 AM - 12:00 AM</p>
                 </div>
               </li>
               <li className="flex items-center gap-3">
-                <Clock size={18} className="flex-shrink-0 text-primary" />
+                <Clock size={18} className="flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium text-foreground">Fri - Sun</p>
                   <p className="text-sm text-muted-foreground">10:00 AM - 2:00 AM</p>
@@ -123,7 +123,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Hot Spot Cafe. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
-            Pizza &middot; Burger &middot; Broast &middot; Juices
+            Pizza &middot; Burger &middot; Broast &middot; Pasta &middot; Juices
           </p>
         </div>
       </div>

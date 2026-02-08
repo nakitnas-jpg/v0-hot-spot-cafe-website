@@ -39,8 +39,8 @@ export function Navigation() {
             height={56}
             className="rounded-full"
           />
-          <span className="hidden font-serif text-xl font-bold tracking-wide text-foreground sm:block">
-            Hot Spot Cafe
+          <span className="hidden font-serif text-2xl tracking-widest text-foreground sm:block">
+            HOT SPOT <span className="text-secondary">CAFE</span>
           </span>
         </a>
 

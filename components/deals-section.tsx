@@ -90,11 +90,14 @@ export function DealsSection() {
         {/* Section header */}
         <div className="mb-12 flex items-end justify-between">
           <div>
-            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-primary">
-              Limited Time Offers
-            </p>
-            <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
-              Hot Deals
+            <div className="mb-4 flex items-center gap-3">
+              <div className="h-px w-10 bg-primary" />
+              <p className="text-sm font-medium uppercase tracking-[0.3em] text-primary">
+                Limited Time Offers
+              </p>
+            </div>
+            <h2 className="font-serif text-5xl tracking-wider text-foreground md:text-6xl lg:text-7xl">
+              HOT <span className="text-primary">DEALS</span>
             </h2>
           </div>
 
@@ -146,20 +149,20 @@ export function DealsSection() {
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <h3 className="font-serif text-xl font-bold text-foreground">
-                  {deal.title}
+                <h3 className="font-serif text-2xl tracking-wider text-foreground">
+                  {deal.title.toUpperCase()}
                 </h3>
-                <p className="mt-1 flex-1 text-sm leading-relaxed text-muted-foreground">
+                <p className="mt-1 flex-1 text-sm font-light leading-relaxed text-muted-foreground">
                   {deal.subtitle}
                 </p>
 
                 <div className="mt-4 flex items-baseline gap-2">
-                  <span className="font-serif text-3xl font-bold text-primary">
+                  <span className="font-serif text-4xl tracking-wider text-primary">
                     {deal.price}
                   </span>
-                  <span className="text-sm text-muted-foreground">{deal.currency}</span>
+                  <span className="text-sm font-medium text-muted-foreground">{deal.currency}</span>
                   {deal.originalPrice && (
-                    <span className="text-sm text-muted-foreground line-through">
+                    <span className="text-sm text-muted-foreground/60 line-through">
                       {deal.originalPrice} {deal.currency}
                     </span>
                   )}
