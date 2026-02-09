@@ -6,36 +6,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const deals = [
   {
-    title: "Crispy Combo",
-    subtitle: "Zinger + Coca-Cola + Fries",
-    price: "9.99",
-    currency: "AED",
-    image: "/images/crispy-combo.jpg",
-  },
-  {
-    title: "Family Saver",
-    subtitle: "2 Large Pizzas + 1.5L Coca-Cola",
-    price: "49",
-    originalPrice: "145",
-    currency: "AED",
-    image: "/images/family-saver.jpg",
-  },
-  {
-    title: "Mega Feast Deal",
-    subtitle: "1 Large Pizza + 1 Large Pasta + 2 Zinger + Coca-Cola 1.5L",
-    price: "59",
-    originalPrice: "160",
-    currency: "AED",
-    image: "/images/mega-feast.jpg",
-  },
-  {
-    title: "Chicken Burger",
-    subtitle: "Crispy chicken patty with special sauce",
-    price: "4.99",
-    currency: "AED",
-    image: "/images/chicken-burger.jpg",
-  },
-  {
     title: "Pizza Deal",
     subtitle: "2 Medium Pizzas + 1 Liter Coke",
     price: "39",
@@ -50,6 +20,36 @@ const deals = [
     originalPrice: "145",
     currency: "AED",
     image: "/images/combo-treat.jpg",
+  },
+  {
+    title: "Crispy Combo",
+    subtitle: "Zinger + Coca-Cola + Fries",
+    price: "9.99",
+    currency: "AED",
+    image: "/images/crispy-combo.jpg",
+  },
+  {
+    title: "Mega Feast Deal",
+    subtitle: "1 Large Pizza + 1 Large Pasta + 2 Zinger + Coca-Cola 1.5L",
+    price: "59",
+    originalPrice: "160",
+    currency: "AED",
+    image: "/images/mega-feast.jpg",
+  },
+  {
+    title: "Family Saver",
+    subtitle: "2 Large Pizzas + 1.5L Coca-Cola",
+    price: "49",
+    originalPrice: "145",
+    currency: "AED",
+    image: "/images/family-saver.jpg",
+  },
+  {
+    title: "Chicken Burger",
+    subtitle: "Crispy chicken patty with special sauce",
+    price: "4.99",
+    currency: "AED",
+    image: "/images/chicken-burger.jpg",
   },
 ]
 

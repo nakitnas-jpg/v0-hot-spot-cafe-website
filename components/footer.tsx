@@ -26,14 +26,14 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/hotspotcafellc/"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-secondary hover:text-secondary"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61586525998940"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-secondary hover:text-secondary"
                 aria-label="Facebook"
               >
@@ -75,7 +75,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 flex-shrink-0 text-secondary" />
                 <span className="text-sm text-muted-foreground">
-                  Dubai, United Arab Emirates
+                  Hay Al Sharq, Sharjah, United Arab Emirates
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -86,8 +86,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="flex-shrink-0 text-secondary" />
-                <a href="mailto:info@hotspotcafe.ae" className="text-sm text-muted-foreground hover:text-secondary">
-                  info@hotspotcafe.ae
+                <a href="mailto:hotspotcafellc@gmail.com" className="text-sm text-muted-foreground hover:text-secondary">
+                  hotspotcafellc@gmail.com
                 </a>
               </li>
             </ul>
@@ -103,14 +103,14 @@ export function Footer() {
                 <Clock size={18} className="flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium text-foreground">Mon - Thu</p>
-                  <p className="text-sm text-muted-foreground">10:00 AM - 12:00 AM</p>
+                  <p className="text-sm text-muted-foreground">09:00 AM - 01:00 AM</p>
                 </div>
               </li>
               <li className="flex items-center gap-3">
                 <Clock size={18} className="flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium text-foreground">Fri - Sun</p>
-                  <p className="text-sm text-muted-foreground">10:00 AM - 2:00 AM</p>
+                  <p className="text-sm text-muted-foreground">09:00 AM - 01:00 AM</p>
                 </div>
               </li>
             </ul>
@@ -120,7 +120,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Hot Spot Cafe. All rights reserved.
+            &copy; {new Date().getFullYear()} Hot Spot Cafe LLC. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Pizza &middot; Burger &middot; Broast &middot; Pasta &middot; Juices

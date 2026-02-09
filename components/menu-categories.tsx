@@ -7,29 +7,22 @@ const categories = [
   {
     name: "Pizza",
     description: "Hand-tossed dough, premium toppings, and melted cheese perfection. Our signature pizzas are the heart of Hot Spot.",
-    image: "/images/pizza-counter.jpg",
-    items: "12+ Varieties",
+    image: "/images/pizza-hero.png",
+    items: "26+ Varieties",
     featured: true,
   },
   {
     name: "Burgers",
     description: "Juicy patties, crispy breading, and signature sauces",
-    image: "/images/chicken-burger.jpg",
-    items: "8+ Options",
+    image: "/images/burgers.jpg",
+    items: "3+ Options",
     featured: false,
   },
   {
     name: "Broast",
     description: "Golden fried chicken, crunchy outside and tender inside",
     image: "/images/broast.jpg",
-    items: "6+ Pieces",
-    featured: false,
-  },
-  {
-    name: "Pasta",
-    description: "Rich sauces, al dente pasta, and generous toppings",
-    image: "/images/mega-feast.jpg",
-    items: "5+ Options",
+    items: "3+ Pieces",
     featured: false,
   },
   {
@@ -37,6 +30,13 @@ const categories = [
     description: "Freshly squeezed fruits blended for pure refreshment",
     image: "/images/juices.jpg",
     items: "10+ Flavors",
+    featured: false,
+  },
+  {
+    name: "Pasta",
+    description: "Rich sauces, al dente pasta, and generous toppings",
+    image: "/images/pasta.png",
+    items: "2+ Options",
     featured: false,
   },
 ]
@@ -155,7 +155,7 @@ export function MenuCategories() {
               </div>
 
               <div className="absolute inset-x-0 bottom-0 p-6">
-                <span className="mb-2 inline-block rounded-full border border-secondary/30 bg-secondary/10 px-3 py-1 text-xs font-medium text-secondary">
+                <span className="mb-2 inline-block rounded-full border border-primary/70 bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">
                   {category.items}
                 </span>
                 <h3 className="font-serif text-3xl tracking-wider text-foreground">

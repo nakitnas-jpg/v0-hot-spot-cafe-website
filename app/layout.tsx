@@ -13,13 +13,17 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${bebasNeue.variable}`}>
+      <html lang="en" className={`${dmSans.variable} ${bebasNeue.variable}`}>
+      <head>
+        <link rel="icon" href="/images/logo.jpg" />
+        <title>Hot Spot Cafe | Pizza, Burger & Broast</title>
+      </head>
       <body className="font-sans antialiased">{children}</body>
-    </html>
+      </html>
   )
 }

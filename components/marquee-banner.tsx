@@ -10,6 +10,13 @@ const items = [
   "Family Saver",
   "Mega Feast",
   "Chicken Zinger",
+    "Margherita",
+    "Peperoni",
+    "Urban Chicken Pizza",
+    "Chicken Ranchero Pizza",
+    "Cheddarino Pizza",
+    "The OG Smash Burger",
+  "Chessy Spaghetti Pasta",
 ]
 
 export function MarqueeBanner() {
@@ -33,7 +40,7 @@ export function MarqueeBanner() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-33.33%);
+            transform: translateX(-53.33%);
           }
         }
         .animate-marquee {
