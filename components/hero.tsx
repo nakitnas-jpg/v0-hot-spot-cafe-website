@@ -83,8 +83,8 @@ export function Hero() {
           >
             {[
               { value: "4.9", label: "Rating" },
-              { value: "50+", label: "Menu Items" },
-              { value: "10K+", label: "Happy Customers" },
+              { value: "70+", label: "Menu Items" },
+              { value: "1K+", label: "Happy Customers" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="font-serif text-4xl tracking-wider text-primary md:text-5xl">{stat.value}</p>
